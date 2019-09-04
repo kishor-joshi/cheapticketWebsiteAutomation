@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="74839" started-at="2019-09-04T12:06:30Z" finished-at="2019-09-04T12:07:44Z">
+    <groups>
+    </groups>
+    <test name="Test2" duration-ms="74839" started-at="2019-09-04T12:06:30Z" finished-at="2019-09-04T12:07:44Z">
+      <class name="com.cheapticket.testscript.OneWayFlightBooking">
+        <test-method status="PASS" signature="setBrowser(java.lang.String)[pri:0, instance:com.cheapticket.testscript.OneWayFlightBooking@57baeedf]" name="setBrowser" is-config="true" duration-ms="6999" started-at="2019-09-04T12:06:30Z" finished-at="2019-09-04T12:06:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBrowser -->
+        <test-method status="PASS" signature="openURL()[pri:1, instance:com.cheapticket.testscript.OneWayFlightBooking@57baeedf]" name="openURL" duration-ms="360" started-at="2019-09-04T12:06:37Z" finished-at="2019-09-04T12:06:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openURL -->
+        <test-method status="PASS" signature="bookTicket([Ljava.lang.String;)[pri:2, instance:com.cheapticket.testscript.OneWayFlightBooking@57baeedf]" name="bookTicket" duration-ms="30930" started-at="2019-09-04T12:06:38Z" data-provider="SearchProvider" finished-at="2019-09-04T12:07:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@59aa20b3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookTicket -->
+        <test-method status="PASS" signature="bookTicket([Ljava.lang.String;)[pri:2, instance:com.cheapticket.testscript.OneWayFlightBooking@57baeedf]" name="bookTicket" duration-ms="33242" started-at="2019-09-04T12:07:09Z" data-provider="SearchProvider" finished-at="2019-09-04T12:07:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@363f6148]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookTicket -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.cheapticket.testscript.OneWayFlightBooking@57baeedf]" name="closeBrowser" is-config="true" duration-ms="2137" started-at="2019-09-04T12:07:42Z" finished-at="2019-09-04T12:07:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.cheapticket.testscript.OneWayFlightBooking -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite1 -->
+</testng-results>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite1]">
+  <test thread-count="5" name="Test2(failed)">
+    <parameter name="selecteddriver" value="firefox"/>
+    <classes>
+      <class name="com.cheapticket.testscript.OneWayFlightBooking">
+        <methods>
+          <include name="search" invocation-numbers="0"/>
+          <include name="closeBrowser"/>
+          <include name="setBrowser"/>
+        </methods>
+      </class> <!-- com.cheapticket.testscript.OneWayFlightBooking -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Suite1] -->
